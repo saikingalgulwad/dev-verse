@@ -1,3 +1,6 @@
 name = "dev-verse"
 compatibility_date = "2025-10-28"
-pages_build_output_dir = ".vercel/output/static"
+
+[build]
+command = "npm run build"
+upload_format = "service-worker"
